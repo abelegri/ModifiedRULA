@@ -1,0 +1,186 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- LABEL NAMES -->
+    <string name="app_name">Modified RULA</string>
+    <string name="labelChooseSide">Choose Side</string>
+
+    <string name="rightUAP">Right Upper Arm Posture</string>
+    <string name="rightUAA">Right Upper Arm Adjustment</string>
+    <string name="rightLAP">Right Lower Arm Posture</string>
+    <string name="rightLAA">Right Lower Arm Adjustment</string>
+    <string name="rightWP">Right Wrist Posture</string>
+    <string name="rightWA">Right Wrist Adjustment</string>
+    <string name="rightWT">Right Wrist Twist</string>
+    <string name="rightMU">Right Muscle Use</string>
+    <string name="rightF">Right Force</string>
+
+    <string name="leftUAP">Left Upper Arm Posture</string>
+    <string name="leftUAA">Left Upper Arm Adjustment</string>
+    <string name="leftLAP">Left Lower Arm Posture</string>
+    <string name="leftLAA">Left Lower Arm Adjustment</string>
+    <string name="leftWP">Left Wrist Posture</string>
+    <string name="leftWA">Left Wrist Adjustment</string>
+    <string name="leftWT">Left Wrist Twist</string>
+    <string name="leftMU">Left Muscle Use</string>
+    <string name="leftF">Left Force</string>
+    
+    <string name="neckPosture">Neck Posture</string>
+    <string name="neckAdjust">Neck Adjustment</string>
+    <string name="trunkPosture">Trunk Posture</string>
+    <string name="trunkAdjust">Trunk Adjustment</string>
+    <string name="legs">Leg Support</string>
+    <string name="generalMU">Non-Arm Muscle Use</string>
+    <string name="generalForce">Non-Arm Force</string>
+    <string name="rightResults">Right Side RULA Results</string>
+    <string name="leftResults">Left Side RULA Results</string>
+    <string name="bothResults">Right and Left Side RULA Results</string>
+
+
+    <!-- REUSED BUTTONS -->
+    <string name="next_button">NEXT</string>
+    <string name="back_button">BACK</string>
+
+    <string name="new_button">NEW ASSESSMENT</string>
+
+    <!-- ACTIVITY MAIN -->
+    <string name="welcome_text">Welcome to the Modified RULA Application</string>
+    <string name="start_button">Begin!</string>
+
+    <!-- ACTIVITY CHOOSE SIDE -->
+    <string name="choose_side">Which side of the body are you assessing?</string>
+    <string name="right_button">Right Side</string>
+    <string name="left_button">Left Side</string>
+    <string name="both_button">Both Sides</string>
+
+    <!-- ACTIVITY RIGHT/LEFT UPPER ARM POSTURE (UAP) -->
+    <string name="rightUAP_prompt">Locate the RIGHT UPPER arm position:</string>
+    <string name="leftUAP_prompt">Locate the LEFT UPPER arm position:</string>
+
+    <string name="UpperArmRadioNeutral">-20° to 20°</string>
+    <string name="UpperArmRadioExtension">in extension past -20°</string>
+    <string name="UpperArmRadioLight">20° to 45°</string>
+    <string name="UpperArmRadioModerate">45° to 90°</string>
+    <string name="UpperArmRadioExtreme">over 90°</string>
+
+    <!-- ACTIVITY RIGHT/LEFT UPPER ARM ADJUSTMENT (UAA) -->
+    <string name="rightUAA_prompt">Select all that apply to the RIGHT arm:</string>
+    <string name="leftUAA_prompt">Select all that apply to the LEFT arm:</string>
+
+    <string name="UpperArmCheckShoulder">The shoulder is raised</string>
+    <string name="UpperArmCheckAbducted">The upper arm is abducted (away from body)</string>
+    <string name="UpperArmCheckSupport">The weight of the arm is supported</string>
+
+    <!-- ACTIVITY RIGHT/LEFT LOWER ARM POSTURE (LAP)-->
+    <string name="rightLAP_prompt">Locate the RIGHT LOWER arm position:</string>
+    <string name="leftLAP_prompt">Locate the LEFT LOWER arm position:</string>
+
+    <string name="LowerArmRadioNeutral">60° to 100°</string>
+    <string name="LowerArmRadioExtension">less than 60°</string>
+    <string name="LowerArmRadioFlexion">greater than 100°</string>
+
+    <!-- ACTIVITY RIGHT/LEFT LOWER ARM ADJUSTMENT (LAA) -->
+    <string name="rightLAA_prompt">Select all that apply to the RIGHT arm:</string>
+    <string name="leftLAA_prompt">Select all that apply to the LEFT arm:</string>
+
+    <string name="LowerArmCheckMidline">The arm crosses the midline of the body</string>
+    <string name="LowerArmCheckOutToSide">The arm is working out to the side of the body</string>
+
+
+
+    <!-- ACTIVITY RIGHT/LEFT WRIST POSITION (WP) -->
+    <string name="rightWP_prompt">Locate the RIGHT wrist position:</string>
+    <string name="leftWP_prompt">Locate the LEFT wrist position:</string>
+
+    <string name="WristRadioNeutral">0°</string>
+    <string name="WristRadioModerate">-15° to 15°</string>
+    <string name="WristRadioExtreme">less than -15° or greater than 15°</string>
+
+    <!-- ACTIVITY RIGHT/LEFT WRIST ADJUSTMENT (WA) -->
+    <string name="rightWA_prompt">Select all that apply to the RIGHT wrist:</string>
+    <string name="leftWA_prompt">Select all that apply to the LEFT wrist:</string>
+
+    <string name="WristCheckMidline">The wrist is bent from the midline</string>
+
+    <!-- ACTIVITY RIGHT/LEFT WRIST TWIST (WT) -->
+    <string name="rightWT_prompt">Determine the RIGHT wrist twist:</string>
+    <string name="leftWT_prompt">Determine the LEFT wrist twist:</string>
+
+    <string name="WristTwistRadioMidRange">Twisting in mid-range</string>
+    <string name="WristTwistRadioEndRange">Twisting at or near end of range</string>
+
+    <!-- ACTIVITY RIGHT/LEFT/GENERAL MUSCLE USE (MU) -->
+    <string name="rightMU_prompt">Is the right arm posture either mainly static (held for > 10 minutes) or repeated > 4X per minute?</string>
+    <string name="leftMU_prompt">Is the left arm posture mainly static (held for > 10 minutes) or repeated > 4X per minute?</string>
+    <string name="generalMU_prompt">Is the neck, trunk, and leg posture mainly static (held for > 10 minutes) or repeated > 4X per minute?</string>
+
+    <string name="MuscleRadioYes">Yes</string>
+    <string name="MuscleRadioNo">No</string>
+
+    <!-- ACTIVITY RIGHT/LEFT/GENERAL FORCE (F) -->
+    <string name="rightF_prompt">Determine the force exerted by the right arm:</string>
+    <string name="leftF_prompt">Determine the force exerted by the left arm:</string>
+    <string name="generalF_prompt">Determine the force exerted by the neck, trunk, and legs:</string>
+
+    <string name="ForceRadioLow">less than 4.4 lbs (intermittent)</string>
+    <string name="ForceRadioModerateIntermittent">4.4 to 22 lbs (intermittent)</string>
+    <string name="ForceRadioModerateStatic">4.4 to 22 lbs (static or repeated)</string>
+    <string name="ForceRadioExtreme">more than 22 lbs or repeated or shocks</string>
+
+    <!-- ACTIVITY NECK POSTURE -->
+    <string name="neckPosturePrompt">Determine the posture of the neck:</string>
+
+    <string name="neckRadioNeutral">0° - 10°</string>
+    <string name="neckRadioLight">10° - 20°</string>
+    <string name="neckRadioModerate">more than 20°</string>
+    <string name="neckRadioExtension">in extension</string>
+
+    <!-- ACTIVITY NECK ADJUSTMENT -->
+    <string name="neckAdjustPrompt">Check all that apply to the neck:</string>
+
+    <string name="neckCheckTwist">The neck is twisted</string>
+    <string name="neckCheckBending">The neck is side bending</string>
+
+    <!-- ACTIVITY TRUNK POSTURE -->
+    <string name="trunkPosturePrompt">Determine the posture of the trunk:</string>
+
+    <string name="trunkRadioNeutral">0°</string>
+    <string name="trunkRadioLight">0° - 20°</string>
+    <string name="trunkRadioModerate">20° - 60°</string>
+    <string name="trunkRadioExtreme">more than 60°</string>
+
+    <!-- ACTIVITY TRUNK ADJUSTMENT -->
+    <string name="trunkAdjustPrompt">Check all that apply to the trunk:</string>
+
+    <string name="trunkCheckTwist">The trunk is twisted</string>
+    <string name="trunkCheckBending">The trunk is side bending</string>
+
+    <!-- ACTIVITY LEG -->
+    <string name="legSupportPrompt">Are the feet and legs supported?</string>
+
+    <string name="legRadioYes">yes</string>
+    <string name="legRadioNo">no</string>
+
+    <!-- ACTIVITY R/L/BOTH RESULTS -->
+    <string name="scoreTextRight">Right Side Final RULA Score:</string>
+    <string name="scoreTextLeft">Left Side Final RULA Score:</string>
+    <string name="actionLevelLabel">Action Level</string>
+    <string name="AL1">Action Level 1</string>
+    <string name="AL2">Action Level 2</string>
+    <string name="AL3">Action Level 3</string>
+    <string name="AL4">Action Level 4</string>
+    <string name="scoreLabel">Score</string>
+    <string name="score1">1</string>
+    <string name="score2">2</string>
+    <string name="score3">3</string>
+    <string name="score4">4</string>
+    <string name="score5">5</string>
+    <string name="score6">6</string>
+    <string name="score7">7</string>
+    <string name="scoreTableLabelRequirements">Required Action</string>
+    <string name="requirement1">Posture is acceptable if it is not maintained or repeated for long periods.</string>
+    <string name="requirement2">Further investigation is needed and changes may be required.</string>
+    <string name="requirement3">Investigation and changes are required soon.</string>
+    <string name="requirement4">Investigation and changes are required immediately.</string>
+
+
+</resources>

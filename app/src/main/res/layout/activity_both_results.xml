@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/variableActionLevelRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/variableActionLevelLeft"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/variableActionLevelLeft"
+        app:layout_constraintTop_toTopOf="@+id/variableActionLevelLeft" />
+
+    <TextView
+        android:id="@+id/variableRequirementRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/variableRequirementLeft"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/variableRequirementLeft"
+        app:layout_constraintTop_toTopOf="@+id/variableRequirementLeft" />
+
+    <TextView
+        android:id="@+id/variableScoreRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/variableScoreLeft"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/variableScoreLeft"
+        app:layout_constraintTop_toBottomOf="@+id/staticLabelRight" />
+
+    <TextView
+        android:id="@+id/staticLabelRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scoreTextRight"
+        app:layout_constraintBottom_toBottomOf="@+id/staticLabelLeft"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/staticLabelLeft"
+        app:layout_constraintTop_toTopOf="@+id/staticLabelLeft" />
+
+    <TextView
+        android:id="@+id/variableActionLevelLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/variableRequirementLeft"
+        app:layout_constraintEnd_toStartOf="@+id/variableActionLevelRight"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/staticLabelLeft" />
+
+    <TextView
+        android:id="@+id/staticLabelLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scoreTextLeft"
+        app:layout_constraintBottom_toTopOf="@+id/variableActionLevelLeft"
+        app:layout_constraintEnd_toStartOf="@+id/staticLabelRight"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/variableScoreLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/variableScoreRight"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/staticLabelLeft" />
+
+    <TextView
+        android:id="@+id/variableRequirementLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/variableRequirementRight"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/variableActionLevelLeft" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="newAssessment"
+        android:text="@string/new_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/variableRequirementLeft"
+        tools:layout_editor_absoluteX="119dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

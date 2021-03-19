@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.modifiedrula">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ModifiedRula">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ChooseSide"
+            android:label="@string/labelChooseSide" />
+
+        <activity android:name=".RightUpperArmPosture"
+            android:label="@string/rightUAP" />
+
+        <activity android:name=".RightUpperArmAdjustment"
+            android:label="@string/rightUAP" />
+
+        <activity android:name=".RightLowerArmPosture"
+            android:label="@string/rightLAP" />
+
+        <activity android:name=".RightLowerArmAdjustment"
+            android:label="@string/rightLAA" />
+
+        <activity android:name=".RightWristPosture"
+            android:label="@string/rightWP" />
+
+        <activity android:name=".RightWristAdjustment"
+            android:label="@string/rightWA" />
+
+        <activity android:name=".RightWristTwist"
+            android:label="@string/rightWT" />
+
+        <activity android:name=".RightArmMuscle"
+            android:label="@string/rightMU" />
+
+        <activity android:name=".RightArmForce"
+            android:label="@string/rightF" />
+        
+        <activity android:name=".LeftUpperArmPosture"
+            android:label="@string/leftUAP" />
+
+        <activity android:name=".LeftLowerArmPosture"
+            android:label="@string/leftLAP" />
+
+        <activity android:name=".LeftLowerArmAdjustment"
+            android:label="@string/leftLAA" />
+
+        <activity android:name=".LeftWristPosture"
+            android:label="@string/leftWP" />
+
+        <activity android:name=".LeftWristAdjustment"
+            android:label="@string/leftWA" />
+
+        <activity android:name=".LeftWristTwist"
+            android:label="@string/leftWT" />
+
+        <activity android:name=".LeftArmMuscle"
+            android:label="@string/leftMU" />
+
+        <activity android:name=".LeftArmForce"
+            android:label="@string/leftF" />
+        
+        <activity android:name=".NeckPosture"
+            android:label="@string/neckPosture" />
+
+        <activity android:name=".NeckAdjustment"
+            android:label="@string/neckAdjust" />
+
+        <activity android:name=".TrunkPosture"
+            android:label="@string/trunkPosture" />
+
+        <activity android:name=".TrunkAdjustment"
+            android:label="@string/trunkAdjust" />
+
+        <activity android:name=".LegSupport"
+            android:label="@string/legs" />
+
+        <activity android:name=".NonArmMuscle"
+            android:label="@string/generalMU" />
+
+        <activity android:name=".NonArmForce"
+            android:label="@string/generalForce" />
+
+        <activity android:name=".RightResults"
+            android:label="@string/rightResults" />
+
+        <activity android:name=".LeftResults"
+            android:label="@string/leftResults" />
+
+        <activity android:name=".BothResults"
+            android:label="@string/bothResults" />
+
+
+    </application>
+
+</manifest>
